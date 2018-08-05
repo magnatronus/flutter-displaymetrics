@@ -13,7 +13,7 @@ I actually only needed the DPI, but set it up to return all the DisplayMetrics d
 
 
 ## Update
-I have been updated and told of a much easier way to get the DPI by @slightfoot on the Flutter Gitter channel (Thanks Simon) 
+I have been updated and told of a much easier way to get the DPI by [@slightfoot](https://github.com/slightfoot) on the Flutter Gitter channel (Thanks Simon) 
 
 MediaQuery gives the devicePixel Ratio  which on my emulator is 3.5, so if you multiple this value by 160 (mdpi value)  you end up with the DPI, in my case (560)
 
