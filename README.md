@@ -5,6 +5,9 @@ I needed to be able to detect the DPI of an Android device (as an attempt to det
 The demo app will attempt to extract the DisplayMetrics of the device/emulator and prints the values to the screen. It does this by using *platform channels*  via some java code which can be found in **android/app/src/main/java/com/example/devicedetect/MainActivity.java**.
 
 
+<img src ="http://butterfly-mobile.uk/wp-content/uploads/2018/08/display-metrics.jpeg" />
+
+
 I actually only needed the DPI, but set it up to return all the DisplayMetrics data. Whether the screen size calcs work is another matter........
 
 
